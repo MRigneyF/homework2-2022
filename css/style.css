@@ -1,9 +1,10 @@
 body{
     background: #000000;
     color: #ffffff;
-    font-family: Verdana, "Times New Roman";
+    font-family: Verdana, "Times New Roman" Sans-Serif;
     margin-top: 25px;
-    margin-bottom: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 
 h1{
@@ -14,7 +15,7 @@ h1{
 
 h2{
     font-size: 32px;
-    text-shadow: 2px 4px #808080;
+    text-shadow: 2px 4px 4px #808080;
 }
 
 p{
@@ -25,14 +26,17 @@ p{
 
 img{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     width: 350px;
+    height: auto;
     border: 10px dashed #ffffff;
 }
 
 div{
+    display: block;
     min-height: 100px;
+    height: auto;
+    width: auto;
     padding: 20px;
     border: 3px solid #ffffff;
 }
@@ -64,12 +68,15 @@ div{
     margin-left: 50px;
     border-bottom: 3px;
     border-left: 10px;
+}
+
+.yellow p{
     color: #000000;
-    text-shadow: 2px 4px #c7e2c7;
+    text-shadow: 2px 4px 4px #c7e2c7;
 }
 
 .green{
-    background: #00eb00;
+    background: #008500;
     text-align: left;
     margin-right: 50px;
     border-bottom: 3px;
@@ -103,9 +110,6 @@ div{
 footer{
     background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,255,1) 25%, rgba(0,102,255,1) 70%, rgba(0,0,0,1) 100%);
-}
-
-.footer p{
     font-size: 20px;
     text-align: center;
     padding-top: 10px;
